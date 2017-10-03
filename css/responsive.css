@@ -1,0 +1,82 @@
+@media (max-width: 575px) {
+  /*Navigation*/
+  .button_container {
+      margin-top: 3%;
+  }
+}
+
+@media (max-width: 600px) {
+  /*Form*/
+  .formRegisterEmail .formBg{
+      width: 300px;
+      padding-left: 35px;
+      padding-right: 35px;
+  }
+
+  .formRegisterEmail .formRow > label span{
+      display: block;
+      text-align: left;
+      padding: 0 0 10px;
+  }
+
+  .formRegisterEmail input{
+      display: block;
+      margin: 0 auto;
+  }
+
+  .formRegisterEmail .formCheckBox input{
+      display: inline-block;
+      margin-left: 0;
+  }
+
+  .formRegisterEmail .formCheckBox span{
+      width: 200px !important;
+  }
+
+  .formRegisterEmail:after{
+      bottom: -80px;
+      left: 50%;
+      margin-left: -25px;
+  }
+
+  /*Footer*/
+  .footer-basic-centered .footer-company-motto {
+      font-size: 18px;
+  }
+  .footer-basic-centered .footer-company-name {
+      font-size: 12px;
+  }
+  .footer-basic-centered .footer-links {
+      font-size: 14px;
+  }
+  .footer-basic-centered .footer-links a {
+      line-height: 1.8;
+  }
+}
+
+@media (max-width: 900px) {
+/*Form*/
+   .formRegister{
+      margin: 20px auto;
+  }
+
+  .formRegisterEmail{
+      position: relative;
+      display: block;
+      margin: 0;
+  }
+
+  .formRegisterEmail .formBg{
+      margin: 0 auto 32px;
+  }
+
+  .formRegisterEmail:after{
+      bottom: -80px;
+      left: 50%;
+      margin-left: -25px;
+  }
+
+  .formSocial {
+      margin-top: 105px;
+  }
+}
